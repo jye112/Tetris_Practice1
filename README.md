@@ -16,3 +16,10 @@
 
 6. 테스트용 응용 프로그램(userapp.c) 빌드
 - gcc -Wall userapp.c -o userapp  
+
+7. 응용 프로그램 실행
+- ./userapp
+
+8. 기타
+- 디바이스 드라이버 제거: rmmod skeleton
+- 출력 메세지 확인: dmesg
